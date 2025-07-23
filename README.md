@@ -1,4 +1,4 @@
-![Java](https://img.shields.io/badge/Java-17-red)
+![Java](https://img.shields.io/badge/Java-21-red)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Latest-blue)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.3-green)
 
