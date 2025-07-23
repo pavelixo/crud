@@ -1,5 +1,7 @@
 package io.github.pavelixo.Crud.service;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 import io.github.pavelixo.Crud.model.Role;
@@ -10,6 +12,10 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class RoleService {
     private final RoleRepository roleRepository;
+    
+    public List<Role> listRoles() {
+    	return roleRepository.findAll();
+    }
     
     public Role createRole(String name) {
         return roleRepository
